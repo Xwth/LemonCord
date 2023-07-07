@@ -31,3 +31,6 @@ debug-assertions = true
 [profile.release]
 debug = false
 debug-assertions = false
+lto = true
+codegen-units = 1
+strip = true
